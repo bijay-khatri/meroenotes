@@ -1,0 +1,13 @@
+.notes-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.notes-container > .buttons-group {
+   display: flex;
+   justify-content: flex-end;
+}
+
+.buttons-group > button:first-child {
+  margin-inline-end: 5px;
+}

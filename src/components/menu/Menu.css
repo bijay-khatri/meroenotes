@@ -1,0 +1,14 @@
+.Menu-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.Menu-container > ul {
+  list-style: none;
+  display: inherit;
+}
+
+
+.menu-list-item {
+  padding: 5px;
+}
